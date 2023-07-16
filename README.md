@@ -1,1 +1,1 @@
-this tutoria class for css project the roadmap
+This is a tutorial class for css project the roadmap
