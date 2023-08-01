@@ -1,0 +1,133 @@
+ *{
+    padding:0;
+    margin:0;
+ }
+ body{
+    background: #ffffff url('../i.jpg') no-repeat right fixed;
+ }
+
+
+ .container{
+    height: 50vh;
+    background: #90543280;
+}
+
+
+.inner-container{
+    height: 50hv;
+    background:hsl(120, 47%, 12%);
+}
+
+.inner-container,p{
+    color:rgb(rgb(216, 34, 34), rgb(108, 250, 108), rgb(96, 96, 245));
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 5px;
+    glyph-orientation-horizontal: 5px;
+
+}
+
+
+.border-css{
+    border: rgba(6, 145, 98, 0.486) dashed 3px;
+    border-radius: 5px;
+    border-style: groove;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: uppercase;
+    margin:50px 50px;
+    
+}
+
+.margin-css{
+    border:5px,solid, green;
+    padding:15px 0 10px 290px; /* padding:top right bottom left */
+    background-color: rgb(112, 5, 161);
+    /* margin: 30px;  take both letf and right the same size*/ 
+    text-transform: uppercase;
+    color:floralwhite;
+    margin: 100px  300px ;
+}
+
+.outline{
+    outline-color: chocolate;
+    height: 100px;
+    width: 1200;
+    background-color: brown;
+    margin: 30px 300px; 
+}
+
+/* 
+a:link- a normal , unvisited link
+a:visited - a link the user  has visited
+a:hover - a link  when  the user mouse
+a: active: - a link a moment it being clicked
+
+
+
+*/
+/* a: link  */
+
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color: rgba(35, 44, 9, 0.021);
+}
+
+a:hover{
+    color:rgba(207, 89, 9, 0.26);
+}
+
+a:active{
+    color:teal;
+}
+
+.underlist{
+    background-color:darkgray;
+    padding:40px;
+    margin:30px;
+}
+
+.underlist li{
+    padding:10px;
+    margin: 10px;
+    list-style-type:georgian;
+}
+
+.orderlist{
+    background-color: wheat;
+    padding:40px;
+    margin:30px;
+}
+
+.orderlist li{
+    background-color: coral;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+table, th, td {
+    border:solid 1px;
+    margin: 40px;
+    padding:10px;
+    border-collapse: collapse;
+    border-style: groove;
+    border-spacing: 4px;
+}
+
+tr:hover{
+    color:#56e;
+}
+
+tr:nth-child(odd){
+    background-color: #2f2f1f;
+    color:#f2f2f1;
+}
+
